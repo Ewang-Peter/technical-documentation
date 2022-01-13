@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    .nav-bar{
+    background-color: black ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.menu{
+    background-color: red;
+}
+.link-container{
+    width: 40%;
+
+
+}
+.link-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu a{
+    color: white;
+}
+
+
+.links{
+    
+    color: white;
+}
+#special-link{
+    text-transform: uppercase;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo img{
+    max-width: 100%;
+    height: 50px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background: teal;
+    margin-top: 50px;
+}
+form input{
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="nav-bar menu" style=" width: 100%; height: 50px; border: 1px solid black; ">
+        <div class="logo">
+            <img src="./img5.png" alt="">
+        </div>
+        <div class="link-container">
+            <a class="links" href="#">Contact us</a>
+            <a class="links" href="https://www.youtube.com/" target="blank" >About us</a>
+            <a id="special-link" class="links" href="#">service</a>
+            <a class="links" href="#">porfolio</a>
+        </div>
+        
+    </div>
+    <section id="forms">
+        <div class="container">
+            <form action="#">
+                <h1>forms assynment</h1>
+                <input type="text" class="name" placeholder="first name">
+                <input type="text" class="last" placeholder="last name">
+                <input type="text" class="email" placeholder="email">
+                <input type="text" class="age" placeholder="age">
+                <input type="text" class="country" placeholder="country">
+                <textarea name="msg" id="msg" cols="32" rows="12" class="mdg-box" placeholder="entermsg"></textarea>
+                <button type="submit">submit</button>
+            </form>
+
+        </div>
+
+    </section>
+</body>
+</html>
